@@ -1,0 +1,29 @@
+.product_parent {
+  display: flex !important;
+  align-items: center !important;
+}
+.card-title {
+  color: rgb(12, 105, 105);
+  font-size: 18px;
+}
+.price {
+  color: rgb(29, 169, 122);
+  font-size: 22px;
+  display: block;
+}
+.btn {
+  width: 140px;
+}
+.filled {
+  color: rgb(188, 57, 57);
+}
+.blank {
+  color: grey;
+}
+.listing-parent {
+  background-color: rgb(220, 220, 220);
+}
+.card {
+  box-shadow: 0px 1px 10px 3px #d2d1d1;
+  margin: 20px 0 !important;
+}

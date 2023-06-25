@@ -1,0 +1,50 @@
+.profile_image img {
+  border-radius: 50%;
+  width: 200px;
+}
+.profile_image {
+  align-items: center;
+}
+.first-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.manage_profile {
+  width: 100%;
+  justify-content: space-evenly;
+}
+.experience-title p {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.experience-title {
+  display: flex !important;
+  align-items: center;
+}
+.experience-title button.btn {
+  border: 1px solid #000;
+}
+.profile-setting {
+  position: relative;
+}
+.vl2 {
+  position: absolute;
+  height: 670px;
+  right: -29px;
+  top: -24px;
+  border: 1px solid #ffffff;
+}
+.vl {
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 669px;
+  position: absolute;
+  right: -27px;
+}
+.profile-setting h3 {
+  margin-bottom: 22px;
+}
+input[type="text"]:hover {
+  border: 1px solid #000;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form class="profile-form bg-dark text-white rounded-3 py-4">
+        <div class="manage_profile d-flex">
+          <div class="first-slide">
+            <div class="profile_image d-flex flex-column alilgn-items-center">
+              <img src="imgs/main_pic.jpg" alt="" />
+              <span class="form-label">User</span>
+              <span class="email">user123@gmail.com</span>
+            </div>
+            <div class="vl"></div>
+          </div>
+
+          <div class="profile-setting">
+            <h3>Profile Setting</h3>
+            <div class="row d-flex">
+              <div class="mb-3 w-50">
+                <label class="form-label">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  placeholder="first name"
+                />
+              </div>
+              <div class="mb-3 w-50">
+                <label class="form-label">Surname</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="surname"
+                  placeholder="surname"
+                />
+              </div>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone number</label>
+              <input
+                type="text"
+                class="form-control"
+                name="phone_number"
+                placeholder="Enter phone number"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Address</label>
+              <textarea
+                name="address"
+                class="form-control"
+                placeholder="Enter address"
+              ></textarea>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Emaill ID</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="Enter Email ID"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Education</label>
+              <input
+                type="text"
+                class="form-control"
+                name="enail"
+                placeholder="Education"
+              />
+            </div>
+            <div class="row d-flex">
+              <div class="mb-3 w-50">
+                <label class="form-label">Country</label>
+                <select name="country" class="form-select">
+                  <option value="1" disabled selected>---- Country ----</option>
+                  <option value="1">India</option>
+                  <option value="2">Canada</option>
+                  <option value="3">USA</option>
+                  <option value="4">Australia</option>
+                  <option value="5">England</option>
+                </select>
+              </div>
+              <div class="mb-3 w-50">
+                <label class="form-label">State / Region</label>
+                <input
+                  type="text"
+                  name="state"
+                  class="form-control"
+                  placeholder="State"
+                />
+              </div>
+              <div class="mt-2 text-center">
+                <button class="btn btn-primary">Save Profile</button>
+              </div>
+            </div>
+            <div class="vl2"></div>
+          </div>
+          <div class="experience w-25">
+            <div class="experience-title d-flex justify-content-between mb-3">
+              <p>Edit Experience</p>
+              <button class="btn text-white">Experience</button>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Experience in Design</label>
+              <input
+                type="text"
+                class="form-control"
+                name="design_experience"
+                placeholder="experience"
+              />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Additional Details</label>
+              <input
+                type="text"
+                class="form-control"
+                name="additional_details"
+                placeholder="additional details"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

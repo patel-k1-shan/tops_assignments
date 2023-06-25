@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css" />
+  </head>
+  <body>
+    <div class="container">
+    <form class="user_details">
+      
+      <h3>Your details</h3>
+      <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" placeholder="First and last name" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" name="email" placeholder="example@domain.com" />
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input type="text" class="form-control" name="phone" placeholder="Eg. +91 9999999999" />
+      </div>
+      
+      <h3>Delivery address</h3>
+      <div class="mb-3">
+          <label class="form-label">Address</label>
+          <textarea name="address" class="form-control"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Post code</label>
+          <input type="text" class="form-control" name="post_code" />
+        </div>
+
+        <h3>Card details</h3>
+        <div class="mb-3">
+            <label class="form-label">Card type</label>
+            <input type="radio" class="form-check-input" name="card_type"> <img src="imgs/visa.png" width="30" alt=""><label class="form-label">VISA</label>
+            <input type="radio" class="form-check-input" name="card_type"> <img src="imgs/amex.png" width="30" alt=""> <label class="form-label">AMEX</label>
+            <input type="radio" class="form-check-input" name="card_type"> <img src="imgs/master-card.png" width="30" alt=""> <label class="form-label">Mastercard</label>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Card number</label>
+            <input type="text" class="form-label" name="card_number">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Security code</label>
+            <input type="text" class="form-control" name="security_code">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Name on card</label>
+            <input type="text" class="form-control" name="card_name" placeholder="Exact name as on the card">
+        </div>
+        <div class="submit-btn">
+            <button class="btn" name="submit">Submit</button>
+        </div>
+    </div>
+    </form>
+  </div>
+  </body>
+</html>
